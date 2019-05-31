@@ -1,3 +1,3 @@
 class Carro < ApplicationRecord
-belongs_to :aluguel
+has_one :aluguel
 end

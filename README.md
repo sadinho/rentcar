@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para rodar esse sistema nescessario ruby e on rails
+Requisitos:
 
-Things you may want to cover:
-
-* Ruby version
+* Ruby version 5.0
 
 * System dependencies
+fazer um bundle install para gerar as gems Obs: o tema está linkado com o git hub no meu repositorio caso queira mudar basta clonar o projeto e editar
 
-* Configuration
 
-* Database creation
+* Database
+sql lite3 mas pode usar o que for melhor
 
 * Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+db:migrate
+mais informaçoes mande um email drdimsade@gmail.com
 * ...
