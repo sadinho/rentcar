@@ -1,3 +1,3 @@
 class Sinistro < ApplicationRecord
-has_one :aluguel
+belongs_to:aluguel
 end

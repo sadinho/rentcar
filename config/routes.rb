@@ -5,8 +5,6 @@ Rails.application.routes.draw do
   get 'users/new'
  devise_for :users
 
-  resources :items
-  resources :items_imports, only: [:new, :create]
 
 
 

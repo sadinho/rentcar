@@ -5,6 +5,13 @@ GIT
     remotipart (1.4.2)
 
 GIT
+  remote: https://github.com/sadinho/projetorentcar
+  revision: e872e291ba350e2757bf8eae69213a852b67cd91
+  specs:
+    rails_admin_rollincode (1.2.1)
+      rails (>= 4.0, < 6)
+
+GIT
   remote: https://github.com/sferik/rails_admin.git
   revision: 18d072c609bab105a89bd92a9b8de06072105153
   specs:
@@ -188,8 +195,6 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
-    rails_admin_rollincode (1.2.1)
-      rails (>= 4.0, < 6)
     railties (5.2.3)
       actionpack (= 5.2.3)
       activesupport (= 5.2.3)
@@ -271,7 +276,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.3)
   rails_admin!
-  rails_admin_rollincode
+  rails_admin_rollincode!
   remotipart!
   roo (~> 2.7.0)
   sass-rails (~> 5.0)

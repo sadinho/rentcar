@@ -1,5 +1,5 @@
 RailsAdmin.config do |config|
-
+config.main_app_name = ["Aluguel de carros", ""]
   ### Popular gems integration
 
   ## == Devise ==
@@ -33,6 +33,9 @@ RailsAdmin.config do |config|
     edit
     delete
     show_in_app
+
+
+
 
     ## With an audit adapter, you can add:
     # history_index
