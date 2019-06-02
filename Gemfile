@@ -2,13 +2,15 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
+gem 'jquery-rails'
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', github: 'sferik/rails_admin'
 #usando o tema do meu repositorio git
 gem 'rails_admin_rollincode', :git => 'https://github.com/sadinho/projetorentcar'
 gem "devise"
 gem "roo", "~> 2.7.0" 
-
+gem "active_admin_import" , github: "Fivell/active_admin_import"
+gem 'activerecord-import'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
@@ -30,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-#gem 'bcrypt', '~> 3.1.11'
+gem 'bcrypt', '~> 3.1.12'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

@@ -3033,6 +3033,8 @@ iframe.wysihtml5-sandbox, .wysihtml5-editor {
 /* line 20, C:/Ruby26/lib/ruby/gems/2.6.0/bundler/gems/rails_admin-18d072c609ba/app/assets/stylesheets/rails_admin/ra.sidescroll.scss */
 .ra-sidescroll .table-striped > tbody > tr:nth-child(even) > td, .ra-sidescroll .table-striped > thead > tr > th {
   background-color: #fff;
+  text-align:center;
+  margin-left:25%;
 }
 /* line 25, C:/Ruby26/lib/ruby/gems/2.6.0/bundler/gems/rails_admin-18d072c609ba/app/assets/stylesheets/rails_admin/ra.sidescroll.scss */
 .ra-sidescroll .table .ra-sidescroll-frozen.headerSortUp, .ra-sidescroll .table .ra-sidescroll-frozen.headerSortDown {
@@ -7323,17 +7325,25 @@ th {
 
 /* line 22, C:/Ruby26/lib/ruby/gems/2.6.0/bundler/gems/rails_admin-18d072c609ba/app/assets/stylesheets/rails_admin/bootstrap/_scaffolding.scss */
 html {
-  font-size: 10px;
+  font-size: 14px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-align:center;
+ width:100%;
+  
 }
-
+tbody {
+	 background-image: linear-gradient(#001fff47, #00ec2863);
+	 width:100%;
+	  margin-left:25%;
+}
 /* line 27, C:/Ruby26/lib/ruby/gems/2.6.0/bundler/gems/rails_admin-18d072c609ba/app/assets/stylesheets/rails_admin/bootstrap/_scaffolding.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #fff;
+
+  
 }
 
 /* line 36, C:/Ruby26/lib/ruby/gems/2.6.0/bundler/gems/rails_admin-18d072c609ba/app/assets/stylesheets/rails_admin/bootstrap/_scaffolding.scss */

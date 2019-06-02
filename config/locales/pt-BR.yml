@@ -68,6 +68,13 @@ pt-BR:
         company_name: "Nome da Empresa"
   views:
   admin:
+    date:
+    formats:
+    default: ! '%d/%m/%Y'
+    long: ! '%d %B %Y'
+    short: ! '%d %b'
+
+
     home:
       name: Home
     pagination:

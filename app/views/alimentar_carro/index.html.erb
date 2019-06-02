@@ -1,0 +1,33 @@
+<%= flash[:notice]%>
+<div>
+<h4>Importar dados de para carros</h4>
+	<%= form_tag import_carros_path, multipart: true do%>
+		<%= file_field_tag :file%>
+		<%= submit_tag "Import from file"%>
+	<% end%>
+</div>
+
+<table>
+	<thead>
+		<tr>
+		 <th>Marca </th>
+		 <th>Tipo </th>
+		 <th>Disponivel </th>
+		 <th>Criado em </th>
+		 <th>Atualizado em</th>
+		 </tr>
+	</thead>
+	<tbody>
+		<% @carros.each do |carro| %>
+			<tr>
+			<td><%= carro.marca%></td>
+			<td><%= carro.tipo%></td>
+			<td><%= carro.disponivel%></td>
+			<td><%= carro.created_at%></td>
+			<td><%= carro.updated_at%></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
+
+			

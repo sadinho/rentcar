@@ -1,5 +1,7 @@
 RailsAdmin.config do |config|
 config.main_app_name = ["Aluguel de carros", ""]
+config.excluded_models =[ " AlimentarCarro "]
+
   ### Popular gems integration
 
   ## == Devise ==
